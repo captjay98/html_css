@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=" utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> THE CODE CAPTAIN </title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <section class="header">
+        <nav>
+            <div id="logo">
+                <a href="index.html">
+                    <h1>THE<br> CODE<br>CAPTAIN</h2>
+                </a>
+            </div>
+            <div class="nav_links" id="navlinks">
+                <i class="fa X" onclick="hidemenu()">X</i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="why.html">Why</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa Y "onclick=" showmenu()">Y</i>
+        </nav>
+
+        <div class="text-box">
+            <a href="about.html">
+
+                <h2>Sometimes the lines get all blurry</h2>
+                <p>Sometime I don't really know myself</p>
+                <a class="btn_alt">...</a>
+                <h2>Here's a little intro</h2>
+            </a>
+            <p>I am <b>Jamal Ibrahim Umar, a Computer Sciencetist
+                and a Full Stack Software Engineer/Web Developer.</p>
+        </div>
+    </section>
+
+    <section class="details">
+        
+        <div class="row">
+
+        <div class="col 1">
+            <a href="about.html">
+                <h5>Here's a little intro</h5>
+                <h3>Welcome to my World.</h3>
+            </a>
+            <p>I am <b>Jamal Ibrahim Umar</b>, <br>a Computer Sciencetist
+                and <br> a Full Stack Software Engineer<br>
+                /Web Developer.</p>
+            </div>
+        <!--
+            my journey
+        -->
+        <div class ="col 2">
+            <a href="contact.html">
+                <h5>Reach out</h5>
+                <h3>Let's geek out</h3>
+            </a>
+            <p>I've had a <strong>geeky</strong> journey</p>
+        </div>
+        <!--
+            why i code
+        =-->
+        <div class="col 3">
+            <a href="why.html">
+                <h5>Why I Code</h35>
+                    <h3>spoiler alert</h3>
+            </a>
+            <p>I <i>don't know</i> why</p>
+        </div>
+        </div>
+
+    <footer>
+        <small>&copy; No do anyhow or you go see anyhow</small>
+
+        <nav>
+            <ul>
+                <li><a href="test.html">Home</a></li><!--
+                --><li><a href="about.html">About</a></li><!--
+                --><li><a href="why.html">Why Code?</a></li><!--
+                --><li><a href="contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script>
+
+        var navlinks = document.getElementById("navlinks");
+
+        function showmenu() {
+            navlinks.style.right = "0";
+        }
+
+        function hidemenu() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+<html>

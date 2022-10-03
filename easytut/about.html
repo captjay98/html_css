@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=" utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> THE CODE CAPTAIN </title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <section class="header">
+        <nav>
+            <div id="logo">
+                <a href="index.html">
+                    <h1>THE<br> CODE<br>CAPTAIN</h2>
+                </a>
+            </div>
+            <div class="nav_links" id="navlinks">
+                <i class="fa X" onclick="hidemenu()">X</i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="why.html">Why</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa Y "onclick=" showmenu()">Y</i>
+        </nav>
+
+        <section class="details">
+        
+            <div class="row">
+    
+            <div class="col1 im">
+                <<a href="about.html">
+
+                    <h5>Hello there</h5>
+                    <h4>Welcome to my World.</h4>
+    
+                    <h6>My name is Jamal, a Computer Science graduate<br>
+                        and also an ALX certified Full Stack Software Engineer/Web Developer.
+                        <br><br>
+    
+                    I have a solid Foundation in C and Python,<br> i also have a solid understanding
+                        of html, css and javascript.<br> i spend most of my time crawling through the command line,<br>
+                        i'm proficient in linux and the devops part of it
+                    <br><br>
+                    I am from Kaduna State, Nigeria. I've had a thing for tech<br>
+                        and computers since when i was a kid,<br>
+                        so i can say i was into tech before i even got into tech.
+                        <br><br>
+                     At some point i deviated a little, i was deeply in love eith planes,<br> and
+                        i wanted to be a pilot at some point,<br> but well this is where my real passon lies<br>
+                        i guess i can't escape the pull. I still Love planes, cars and Tech.
+                        <br><br>
+                     I love Anime, F1, Tennis and Football, <br>also enjoy the movies,
+                        Tv series and Good Music</h6>
+                </div>
+            <!--
+                my journey
+            -->
+            <div class ="col2 im">
+                    <img src="pic.jpg" alt="my picture" />
+            </div>
+
+        
+    </section>
+
+        
+    </section>
+
+    <footer>
+        <small>&copy; No do anyhow or you go see anyhow</small>
+
+        <nav>
+            <ul>
+                <li><a href="test.html">Home</a></li><!--
+                --><li><a href="about.html">About</a></li><!--
+                --><li><a href="why.html">Why Code?</a></li><!--
+                --><li><a href="contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script>
+
+        var navlinks = document.getElementById("navlinks");
+
+        function showmenu() {
+            navlinks.style.right = "0";
+        }
+
+        function hidemenu() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+<html>

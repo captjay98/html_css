@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=" utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> THE CODE CAPTAIN </title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <section class="header">
+        <nav>
+            <div id="logo">
+                <a href="index.html">
+                    <h1>THE<br> CODE<br>CAPTAIN</h2>
+                </a>
+            </div>
+            <div class="nav_links" id="navlinks">
+                <i class="fa X" onclick="hidemenu()">X</i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="why.html">Why</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa Y "onclick=" showmenu()">Y</i>
+        </nav>
+
+        <div class="text-box">
+            <a href="about.html">
+
+                <h2>I will do this another time</h2>
+                <p>Time to get back to business</p>
+                <a class="btn_alt">...</a>
+
+        </div>
+    </section>
+
+    <footer>
+        <small>&copy; No do anyhow or you go see anyhow</small>
+
+        <nav>
+            <ul>
+                <li><a href="test.html">Home</a></li><!--
+                --><li><a href="about.html">About</a></li><!--
+                --><li><a href="why.html">Why Code?</a></li><!--
+                --><li><a href="contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script>
+
+        var navlinks = document.getElementById("navlinks");
+
+        function showmenu() {
+            navlinks.style.right = "0";
+        }
+
+        function hidemenu() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+<html>
